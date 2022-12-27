@@ -5,6 +5,7 @@ export default function Alert({ children, type }: { children: string, type: stri
   return (
     <div
       className={clsx({
+      className={clsx({
         [styles.success]: type === "success",
         [styles.error]: type === "error",
       })}
