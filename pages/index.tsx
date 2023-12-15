@@ -21,10 +21,10 @@ export default function Home({
           Hi, I am Nac. This is my badly-written blog website. And yes, I know
           this website is so bad. That is why I am trying to learn more.
         </p>
-        <p>
+        {/* <p>
           (This is a sample website based on{" "}
           <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
-        </p>
+        </p> */}
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
